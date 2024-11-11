@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 :root{
@@ -28,6 +29,7 @@ body{
 
   font: var(--text);
   color: var(--text-secondary);
+  zoom: 75%;
 }
 
 h1, h2{
