@@ -1,6 +1,6 @@
 {
-    "zenMode.fullScreen": true,
-    
+  "zenMode.fullScreen": true,
+
   // editor
   "editor.wordWrap": "on",
   "editor.fontSize": 18,
@@ -26,10 +26,10 @@
   "prettier.enable": true,
   "prettier.singleQuote": false,
   "prettier.tabWidth": 2,
-  "prettier.semi": false
+  "prettier.semi": false,
 
   // terminal
-  ,"terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 16,
   "terminal.integrated.profiles.windows": {
     "PowerShell": {
       "source": "PowerShell",
