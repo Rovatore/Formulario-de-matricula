@@ -105,6 +105,37 @@
                             <input type="text" id="state" name="state" disabled value="SP">
                             </div>
                     </fieldset>
+                    <fieldset class="guardian">
+                        
+                        <legend>Informações do Responsavel</legend>
+                        
+                        <div class="input-wrapper"><label for="guardian">
+                            Nome do Responsável
+                        </label>
+
+                            <input type="text" id="guardian" name="guardian">
+                            
+                            <small>
+                                Principal Responsável legal e contato de emergência
+                            </small>
+
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" name="phone" placeholder="(11) 1 1111-1111">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="mail">E-Mail</label>
+                            <input type="email" name="mail" id="mail" required>
+                            
+                            <div class="error">
+                                <img src="./assets/icons/alert-circle.svg" alt="">
+                                <span>Insira um E-mail válido</span>
+                            </div>
+                        </div>
+                    </fieldset>
                 </form>
             </div>
         </main>
